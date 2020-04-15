@@ -43,6 +43,7 @@ public class RecipeViewModel extends AndroidViewModel {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
                 Log.d("TAG_X", "HEY NOW BROWN COW");
+                Log.d("TAG_Z", "To cause merge conflict");
             }
         });
 
