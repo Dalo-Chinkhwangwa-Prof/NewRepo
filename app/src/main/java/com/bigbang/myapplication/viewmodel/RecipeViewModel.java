@@ -1,6 +1,7 @@
 package com.bigbang.myapplication.viewmodel;
 
 import android.app.Application;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
@@ -41,6 +42,7 @@ public class RecipeViewModel extends AndroidViewModel {
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
+                Log.d("TAG_X", "HEY NOW BROWN COW");
             }
         });
 
